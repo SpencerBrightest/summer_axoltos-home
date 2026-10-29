@@ -1,0 +1,35 @@
+@import url('./index.css');
+
+.small-hero {
+  min-height: 340px;
+}
+
+.hero-copy {
+  max-width: 820px;
+}
+
+.eyebrow {
+  display: inline-block;
+  margin: 0 0 10px;
+  font-size: 0.76rem;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--secondary-deep);
+  font-weight: 700;
+}
+
+.content-only h2 {
+  margin-bottom: 14px;
+}
+
+.feature-media {
+  overflow: hidden;
+  border-radius: 26px;
+  box-shadow: var(--shadow);
+}
+
+.feature-media img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
